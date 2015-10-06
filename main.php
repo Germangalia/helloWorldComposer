@@ -1,14 +1,9 @@
 <?php
 
-require __DIR__ . "/Hello.php";
-
 require __DIR__ . "/vendor/autoload.php";
-/**
- * Created by PhpStorm.
- * User: ggalia84
- * Date: 6/10/15
- * Time: 19:33
- */
+
+use Com\Iesebre\Dam2\germangalia\helloworldcomposer\Hello;
+
 $greetings = new Hello();
 
 $greetings->sayHello();

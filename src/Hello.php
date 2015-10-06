@@ -1,12 +1,10 @@
 <?php
 
-require __DIR__ . "/vendor/autoload.php";
-/**
- * Created by PhpStorm.
- * User: ggalia84
- * Date: 6/10/15
- * Time: 19:32
- */
+namespace Com\Iesebre\Dam2\germangalia\helloworldcomposer;
+
+
+use Faker\Factory;
+
 class Hello
 {
     public $faker;
@@ -16,7 +14,7 @@ class Hello
      */
     public function __construct()
     {
-        $this->faker = Faker\Factory::create();
+        $this->faker = Factory::create();
     }
 
     public function sayHello(){
