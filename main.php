@@ -1,6 +1,8 @@
 <?php
 
 require __DIR__ . "/Hello.php";
+
+require __DIR__ . "/vendor/autoload.php";
 /**
  * Created by PhpStorm.
  * User: ggalia84
