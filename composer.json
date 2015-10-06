@@ -1,0 +1,11 @@
+{
+    "name": "germangalia/hello-world-composer",
+    "description": "bla bla",
+    "authors": [
+        {
+            "name": "Germangalia",
+            "email": "germangalia@iesebre.com"
+        }
+    ],
+    "require": {}
+}
